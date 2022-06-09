@@ -1,8 +1,13 @@
 #!/usr/bin/env bash
 # displays until loop Holberton School 10 times
 
-COUNT=1
+COUNT=1       
+stderr='FY'                                                                                                              
+
 until [ $COUNT -eq 10 ]; do
       echo "Best School"
       COUNT=$(( COUNT + 1 ))
+      	[ "$stderr" ]                                                                                                              
+
+
 done
