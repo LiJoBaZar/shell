@@ -4,5 +4,5 @@
 COUNT=1
 until [ "$COUNT" -eq 10 ]; do
       echo "Best School"
-      	COUNT=$COUNT+1
+      COUNT=$(( COUNT + 1 ))
 done
