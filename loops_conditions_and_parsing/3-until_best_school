@@ -1,13 +1,10 @@
 #!/usr/bin/env bash
-# displays until loop Holberton School 10 times
+# displays until loop Holberton School 10 times.
 
-COUNT=1       
-stderr=1                                                                                                              
-
-until [ $COUNT -eq 10 ]; do
-      echo " Best School "
-      COUNT=$(( COUNT + 1 ))
-      	[ "$stderr" ]                                                                                                              
-
-
-done
+cont=1
+until [ $cont -le 10 ];
+do
+	echo "Best School"
+	 cont=$(( cont + 1 ))
+				    	
+ 	done
