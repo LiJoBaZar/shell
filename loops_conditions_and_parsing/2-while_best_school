@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# displays Holberton School 10 times.
+# Bash script that displays Holberton School 10 times
 
-COUNTER=1
-while [ $COUNTER -lt 10 ]
+cont=1
+while [ $cont -le 10 ];
 do
-    echo "Besexpr t School"
-    let COUNTER=COUNTER+1
-done
+	    echo "Best School"
+	        let cont=cont+1
+	done
