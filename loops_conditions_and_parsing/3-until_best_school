@@ -5,7 +5,7 @@ COUNT=1
 stderr=1                                                                                                              
 
 until [ $COUNT -eq 10 ]; do
-      echo "Best School"
+      echo " Best School "
       COUNT=$(( COUNT + 1 ))
       	[ "$stderr" ]                                                                                                              
 
