@@ -2,7 +2,7 @@
 # displays until loop Holberton School 10 times
 
 COUNT=1       
-stderr='FY'                                                                                                              
+stderr=1                                                                                                              
 
 until [ $COUNT -eq 10 ]; do
       echo "Best School"
