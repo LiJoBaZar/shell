@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # 11-manage_my_process that manages manage_my_process
-
 if [ "${1}" == "start" ]
 then
     ./manage_my_process &
